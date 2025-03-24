@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-11/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.css">
+    <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-91164e01.js">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-67cecaac.css">
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <label>
+          <input type="text" name="search-text" placeholder="Search images..." required>
+        </label>
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="loader is-hidden">
+        <span class="loader-spinner"></span>
+        <p class="loader-text">Loading images, please wait...</p>
+      </div>
+
+      <ul class="gallery"></ul>
+    </div>
+
+    
+  </body>
+</html>
